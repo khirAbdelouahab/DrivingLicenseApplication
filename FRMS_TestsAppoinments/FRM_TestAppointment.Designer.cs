@@ -57,9 +57,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.btnAddAppointment = new System.Windows.Forms.Button();
-            this.uC_TestAppointment1 = new DVLD_Projet.FRMS_TestsAppoinments.UC_TestAppointment();
-            this.uC_TestAppointment2 = new DVLD_Projet.FRMS_TestsAppoinments.UC_TestAppointment();
-            this.uC_TestAppointment3 = new DVLD_Projet.FRMS_TestsAppoinments.UC_TestAppointment();
             ((System.ComponentModel.ISupportInitialize)(this.Image)).BeginInit();
             this.pnlContainerLocalApp.SuspendLayout();
             this.pnlContainerApp.SuspendLayout();
@@ -390,36 +387,12 @@
             this.btnAddAppointment.TabIndex = 3;
             this.btnAddAppointment.UseVisualStyleBackColor = true;
             // 
-            // uC_TestAppointment1
-            // 
-            this.uC_TestAppointment1.Location = new System.Drawing.Point(53, 423);
-            this.uC_TestAppointment1.Name = "uC_TestAppointment1";
-            this.uC_TestAppointment1.Size = new System.Drawing.Size(735, 33);
-            this.uC_TestAppointment1.TabIndex = 4;
-            // 
-            // uC_TestAppointment2
-            // 
-            this.uC_TestAppointment2.Location = new System.Drawing.Point(54, 462);
-            this.uC_TestAppointment2.Name = "uC_TestAppointment2";
-            this.uC_TestAppointment2.Size = new System.Drawing.Size(735, 33);
-            this.uC_TestAppointment2.TabIndex = 4;
-            // 
-            // uC_TestAppointment3
-            // 
-            this.uC_TestAppointment3.Location = new System.Drawing.Point(54, 501);
-            this.uC_TestAppointment3.Name = "uC_TestAppointment3";
-            this.uC_TestAppointment3.Size = new System.Drawing.Size(735, 33);
-            this.uC_TestAppointment3.TabIndex = 4;
-            // 
             // FRM_TestAppointment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(872, 585);
-            this.Controls.Add(this.uC_TestAppointment3);
-            this.Controls.Add(this.uC_TestAppointment2);
-            this.Controls.Add(this.uC_TestAppointment1);
             this.Controls.Add(this.btnAddAppointment);
             this.Controls.Add(this.pnlContainerApp);
             this.Controls.Add(this.pnlContainerLocalApp);
@@ -467,8 +440,5 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button btnAddAppointment;
-        private UC_TestAppointment uC_TestAppointment1;
-        private UC_TestAppointment uC_TestAppointment2;
-        private UC_TestAppointment uC_TestAppointment3;
     }
 }
